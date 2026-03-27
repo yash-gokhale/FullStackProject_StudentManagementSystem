@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px 20px;
+  color: white;
+  
+}
+
+.nav-left{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-right .profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes bottom spacing gaps */
+}

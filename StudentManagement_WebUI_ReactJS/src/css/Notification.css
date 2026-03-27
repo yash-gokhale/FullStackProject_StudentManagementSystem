@@ -1,0 +1,57 @@
+.heading-bar{
+    background-color: antiquewhite;
+    color: blue;
+    text-align: center;
+    padding: 20px;
+}
+
+.meta-text{
+    font-size: large;
+    padding-left: 20px;
+    color: rgb(221, 180, 102);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute; /* Positions the text relative to the parent container */
+    top: -1em; /* Negative margin moves it up over the top border. Adjust '1em' based on font size. */
+    left: 20px; /* Adjust horizontal position */
+    background-color: #fff; /* Match your page background color */
+    padding: 0 10px; /* Space around the text to hide the border line behind it */
+    font-weight: bold;
+}
+
+.notification-text{
+    color: rgb(241, 41, 241);
+    font-size: large;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgb(233, 238, 237);
+    border: 2px solid #333; /* The border around the main content */
+    padding: 20px; /* Space inside the container */
+    position: relative;
+}
+
+.list-style{
+    padding: 20px;
+}
+
+.date-style{
+    text-align: right;
+    background-color: aquamarine;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.scrollable-container{
+    max-height: 700px;
+    overflow-y: auto;
+    border: solid cornflowerblue 1px;
+    padding: 10px;
+    width: 90%;
+}

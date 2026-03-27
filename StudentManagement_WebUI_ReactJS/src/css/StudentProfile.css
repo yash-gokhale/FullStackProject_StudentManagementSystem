@@ -1,0 +1,32 @@
+.profile-name{
+    background-color: antiquewhite;
+    color: rgb(15, 107, 134);
+    border: solid rgb(151, 129, 38) 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.field-label{
+    font-size: larger;
+    color: rgb(150, 127, 255);
+    padding-left: 45%;
+}
+
+.field-value{
+    font-size: large;
+    color: rgb(4, 42, 59);
+    
+
+}
+
+.field-row{
+    padding-bottom: 20px;
+
+}
+
+.status-verify{
+    font-size: xx-large;
+    padding: auto;
+    background-color: rgb(235, 231, 227);
+    text-align: center;
+}
